@@ -379,6 +379,19 @@
           </ul>
         </div>
       </div>
+      <div class="footer-subscribe">
+        <p class="footer-subscribe-title">Subscribe</p>
+        <form class="subscribe-field"></form>
+        <label for="" name="email">
+          <input 
+            class="subscribe-input"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            />
+        </label>
+        <button type="submit" class="footer-subscribe-button">Subscribe</button>
+      </div>
     </footer>
    <div class="backdrop is-hidden" data-modal>
      <div class="modal">
@@ -421,8 +434,17 @@
           <textarea name="user-text id="user-text" class="modal-comment" placeholder="Text input" ></textarea>
         </div>
         <div class="modal-field">
-          <input type="checkbox" id="privacy" name="privacy" value="true" class="modal-check"> 
-          <label for="privacy" class="check-text"><span></span> accept the terms and conditions of the Privacy Policy</label>
+          <input 
+            type="checkbox" 
+            id="privacy" 
+            name="privacy" 
+            value="true" 
+            class="modal-check visually-hidden"> 
+          <label for="privacy" class="check-text"><span>
+            <svg class="check-icon" width="10" height="8">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+          </span> accept the terms and conditions of the <a href="" class="check-privacy">Privacy Policy</a> </label>
         </div>
         <button type="submit" class="modal-button">Send</button>
       </form>
