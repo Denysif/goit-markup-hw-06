@@ -727,6 +727,73 @@ color: #434455
     fill: var(--team-background-color);
 }
 
+.footer-subscribe {
+    gap: 24px;
+    justify-content: flex-end;
+}
+
+.subscribe-field {
+    padding-left: 80px;
+}
+
+.subscribe-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 26px;
+    cursor: pointer;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-input:focus {
+    border: 1px solid var(--accent-color);
+    outline: none;
+}
+
+
+
+.footer-subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.footer-subscribe-button {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 24px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 24px;
+    gap: 16px;
+    background: #4D5AE5;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer-subscribe-button::placeholder {
+    color: #FFFFFF;
+}
+
+.subscribe-icon {
+    fill: #FFFFFF;
+}
+
+.footer-subscribe-button:hover,
+.footer-subscribe-button:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
 .backdrop {
     position: fixed;
     width: 100%;
@@ -941,50 +1008,5 @@ color: #434455
     background-color: #404BBF;
 }
 
-.footer-subscribe {
-    gap: 24px;
-    justify-content: flex-end;
-}
 
-.subscribe-input {
-    width: 264px;
-    height: 40px;
-    border: 1px solid #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    padding-left: 16px;
-    cursor: pointer;
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.subscribe-input:focus {
-    border: 1px solid var(--accent-color);
-    outline: none;
-}
-
-
-
-.footer-subscribe-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-    color: #FFFFFF;
-}
-
-.footer-subscribe-button {
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    margin-left: 24px;
-    flex-direction: row;
-    justify-content: center;
-    padding: 8px 24px;
-    gap: 16px;
-    background: #4D5AE5;
-    border-radius: 4px;
-    color: #FFFFFF
-}
 
