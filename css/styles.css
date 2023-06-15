@@ -728,25 +728,46 @@ color: #434455
 }
 
 .footer-subscribe {
+    display: inline-flex;
     gap: 24px;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+}
+
+.footer-subscribe-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .subscribe-field {
+    display: flex;
     padding-left: 80px;
+    gap: 24px;
 }
 
 .subscribe-input {
     width: 264px;
     height: 40px;
     border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0,04em;
+    padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    padding-left: 26px;
-    cursor: pointer;
-    background-color: #2E2F42;
     color: #FFFFFF;
+    cursor: pointer;
+  
+    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-input::placeholder {
+    color: #FFFFFF;
 }
 
 .subscribe-input:focus {
@@ -756,36 +777,40 @@ color: #434455
 
 
 
-.footer-subscribe-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-    color: #FFFFFF;
+
+
+.subscribe-field {
+    display: flex;
 }
 
 .footer-subscribe-button {
-    display: inline-flex;
+    min-width: 165px;
+    height: 40px;
+    display: flex;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     position: absolute;
     margin-left: 24px;
     flex-direction: row;
     justify-content: center;
     padding: 8px 24px;
     gap: 16px;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
+    border: none;
     border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
 }
 
-.footer-subscribe-button::placeholder {
-    color: #FFFFFF;
-}
+
 
 .subscribe-icon {
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 .footer-subscribe-button:hover,
