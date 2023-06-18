@@ -676,6 +676,7 @@ color: #434455
 .footer-soc {
     
     text-align: center;
+    margin-right: auto;
 }
 
 .footer-soc-title {
@@ -728,8 +729,8 @@ color: #434455
 }
 
 .footer-subscribe {
-    display: inline-flex;
-    gap: 24px;
+    /* display: inline-flex;
+    gap: 24px; */
     /* justify-content: flex-end; */
 }
 
@@ -743,10 +744,9 @@ color: #434455
 }
 
 .subscribe-field {
-    display: flex;
-    padding-left: 80px;
-    gap: 24px;
-}
+    /* display: flex; */
+    /* padding-left: 80px;  */
+} 
 
 .subscribe-input {
     width: 264px;
@@ -793,7 +793,7 @@ color: #434455
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    position: absolute;
+    /* position: absolute; */
     margin-left: 24px;
     flex-direction: row;
     justify-content: center;
@@ -810,7 +810,7 @@ color: #434455
 
 .subscribe-icon {
     fill: #FFFFFF;
-    margin-left: 16px;
+    /* margin-left: 16px; */
 }
 
 .footer-subscribe-button:hover,
@@ -894,7 +894,6 @@ color: #434455
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-top: 72px;
     color: #2E2F42;
     margin-bottom: 16px;
    
